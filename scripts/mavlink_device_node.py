@@ -5,12 +5,12 @@
 
 import rospy
 import serial
-from mavlink_ardupilotmega.msg import MAV_RAW_DATA
+from mavlink_phoenix.msg import MAV_RAW_DATA
 
 #===============================================================================
 # 
 #===============================================================================
-ser = serial.Serial('/dev/ttyUSB0', 57600, timeout=1)
+ser = serial.Serial('/dev/senseboard', 115200, timeout=1)
 
 #===============================================================================
 # 
