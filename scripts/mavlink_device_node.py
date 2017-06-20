@@ -28,7 +28,7 @@ def node():
     pub = rospy.Publisher('/from_mav_mav_raw_data', MAV_RAW_DATA, queue_size=10)
     rospy.Subscriber("/to_mav_mav_raw_data", MAV_RAW_DATA, to_mav_raw_callback,queue_size=10)
     
-    r = rospy.Rate(100) # 100hz
+    r = rospy.Rate(1000) 
     
     m = MAV_RAW_DATA()
     m.channel=0
