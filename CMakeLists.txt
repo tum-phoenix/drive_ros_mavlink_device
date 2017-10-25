@@ -5,7 +5,7 @@ project(mavlink_phoenix_device)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  mavlink_phoenix
+  drive_ros_mavlink_cc2016
   roscpp
   rospy
 )
