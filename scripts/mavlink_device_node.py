@@ -5,7 +5,7 @@
 
 import rospy
 import serial
-from drive_ros_mavlink_cc2016.msg import MAV_RAW_DATA
+from drive_ros_msgs.msg import mav_RAW_DATA
 
 #===============================================================================
 #
