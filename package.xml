@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>mavlink_phoenix_device</name>
+  <name>drive_ros_mavlink_device</name>
   <version>0.0.0</version>
-  <description>The mavlink_device package</description>
+  <description>drive_ros_mavlink_device</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

@@ -4,5 +4,5 @@
     <!-- more infos: https://en.wikipedia.org/wiki/Nice_(Unix) -->
     <arg name="nice_val" default="-10"/>
 
-    <node name="mavlink_device" pkg="mavlink_phoenix_device" type="mavlink_device_node.py" output="screen" launch-prefix="nice -n $(arg nice_val)"/>
+    <node name="mavlink_device" pkg="drive_ros_mavlink_device" type="mavlink_device_node.py" output="screen" launch-prefix="nice -n $(arg nice_val)"/>
 </launch>
